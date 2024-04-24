@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.header,
+.footer {
+  background-image: url("../images/bg.avif");
+}
+.title-footer {
+  font-weight: bold;
+  font-size: 20px;
+}
+.form-control {
+  border-radius: 10px 0 0 10px;
+}
+
+.btn-outline-success {
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  border: 1px solid #0c93cd;
+  background-color: #0c93cd;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.btn_canvas {
+  color: #fff;
+  border: 1px solid #0c93cd;
+  background-color: #0c93cd;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.btn_canvas:focus-visible,
+.btn_canvas:active {
+  border: 1px solid #0c93cd !important;
+  background-color: #0c93cd !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.logo {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.form-search {
+  display: flex;
+}

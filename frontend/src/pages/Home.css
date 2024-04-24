@@ -1,0 +1,87 @@
+.body_bao {
+  min-height: calc(100vh - 159px);
+}
+.slide-home {
+  height: 65vh;
+}
+.title-body {
+  padding: 5px 10px;
+  text-align: center;
+  color: #0259cc;
+  font-family: "Playfair Display", serif;
+}
+.bao-producer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body-producer {
+  border-radius: 20px;
+
+  color: #1d242c;
+  font-size: 600px;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 1px solid #0259cc;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.bao-nxb {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.product-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-product {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.card-title {
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-text {
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  height: 45px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.group_ft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-card {
+  color: #e6f1ff;
+  background-color: #1969cb;
+  font-weight: bold;
+}
+.bao-pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px 5px;
+}

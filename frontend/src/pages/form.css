@@ -1,0 +1,60 @@
+.form-body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body-form {
+  min-width: 60vh;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.497);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.title-form {
+  font-weight: 700;
+  font-size: 35px;
+  color: #1352d0;
+  text-shadow: 1px 1px 2px rgb(7, 230, 219), 0 0 1em rgb(6, 87, 179),
+    0 0 0.2em blue;
+}
+.form {
+  width: 70%;
+}
+.group-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.name-input {
+  padding-left: 10px;
+  font-weight: 700;
+}
+.input-login {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  background-color: rgba(255, 255, 255, 0.724);
+}
+.input-login:focus-visible {
+  border: none;
+  outline: none;
+}
+.button-form {
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+}
+.dieuhuong {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1352d0;
+}

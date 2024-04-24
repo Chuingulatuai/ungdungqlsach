@@ -1,0 +1,11 @@
+.table-admin {
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+.form-add-book {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #c1edee;
+  padding: 50px;
+}
